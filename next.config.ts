@@ -1,7 +1,24 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  turbopack: {
+    root: path.resolve(__dirname),
+  },
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
