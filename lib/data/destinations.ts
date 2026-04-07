@@ -10,8 +10,8 @@ export const destinations: Destination[] = [
     name: "Sigiriya",
     tagline: "La forteresse dans les nuages",
     category: ["culture", "aventure"],
-    heroImage: pexels(28838276, 1600), // Aerial view of Sigiriya rock fortress
-    heroPosition: "center 30%",
+    heroImage: pexels(28838276, 1920), // Aerial view of Sigiriya rock fortress
+    heroPosition: "center 40%",
     images: [
       pexels(13391116), // Sigiriya Sri Lanka ground view
       pexels(19808528), // View of Pidurangala Rock looking at Sigiriya
@@ -50,8 +50,8 @@ Au sommet, les ruines du palais royal offrent une vue à 360 degrés sur la jung
     name: "Kandy",
     tagline: "Le cœur spirituel de l'île",
     category: ["culture"],
-    heroImage: pexels(14041994, 1600), // Sri Dalada Maligawa — Temple of the Sacred Tooth Relic
-    heroPosition: "center center",
+    heroImage: pexels(14041994, 1920), // Sri Dalada Maligawa — Temple of the Sacred Tooth Relic
+    heroPosition: "75% center",
     images: [
       pexels(27907358), // Sri Lankan elephants during Kandy Esala Perahera
       pexels(18199789), // Elephant in Kandy Esala Perahera procession
@@ -90,8 +90,8 @@ Kandy est aussi la porte d'entrée des plantations de thé du centre de l'île. 
     name: "Galle",
     tagline: "L'élégance coloniale face à l'océan",
     category: ["culture", "plage"],
-    heroImage: pexels(31194790, 1600), // Charming Street View in Galle Fort
-    heroPosition: "center center",
+    heroImage: pexels(31194790, 1920), // Charming Street View in Galle Fort
+    heroPosition: "center 45%",
     images: [
       pexels(31032908), // Galle Fort Clock Tower
       pexels(31032945), // Night View of the Historic Galle Fort
@@ -130,7 +130,7 @@ Galle est aussi le point de départ idéal pour explorer la côte sud : Mirissa 
     name: "Ella",
     tagline: "Le paradis des randonneurs",
     category: ["nature", "aventure"],
-    heroImage: pexels(4769075, 1600), // Nine Arch Bridge in Demodara, Sri Lanka (with train)
+    heroImage: pexels(4769075, 1920), // Nine Arch Bridge in Demodara, Sri Lanka (with train)
     heroPosition: "center 55%",
     images: [
       pexels(12147639), // Ella Nine Arch Bridge Beautiful Sri Lanka
@@ -170,7 +170,7 @@ Le village lui-même regorge de petits restaurants servant des smoothie bowls le
     name: "Trincomalee",
     tagline: "La perle de la côte est",
     category: ["plage"],
-    heroImage: pexels(30992808, 1600), // Tranquil Sri Lankan Coastal View with Boat and Rock Formation
+    heroImage: pexels(30992808, 1920), // Tranquil Sri Lankan Coastal View with Boat and Rock Formation
     heroPosition: "center 40%",
     images: [
       pexels(13010771), // Turtle Swimming Underwater (Pigeon Island snorkeling)
@@ -210,7 +210,7 @@ La baie de Trincomalee a aussi joué un rôle dans l'histoire navale mondiale : 
     name: "Yala",
     tagline: "Sur les traces du léopard",
     category: ["safari", "nature"],
-    heroImage: pexels(27037675, 1600), // Leopard Running on a Safari
+    heroImage: pexels(27037675, 1920), // Leopard Running on a Safari
     heroPosition: "center 35%",
     images: [
       pexels(86413),    // Large elephants near lake (Yala/Udawalawe)
@@ -250,7 +250,7 @@ Le site archéologique de Sithulpawwa, un ancien monastère bouddhiste du IIe si
     name: "Nuwara Eliya",
     tagline: "La petite Angleterre des montagnes",
     category: ["nature"],
-    heroImage: pexels(6128955, 1600), // Scenic verdant tea plantation on hilly terrain
+    heroImage: pexels(6128955, 1920), // Scenic verdant tea plantation on hilly terrain
     heroPosition: "center 40%",
     images: [
       pexels(2403209),  // Brown Train Rail Surrounded by Green Trees (highlands train)
@@ -290,7 +290,7 @@ Les environs regorgent de cascades spectaculaires : Lovers Leap (37 m), Ramboda 
     name: "Anuradhapura",
     tagline: "La cité sacrée millénaire",
     category: ["culture"],
-    heroImage: pexels(122253, 1600), // White Dome Stupa Reflected on Water (Ruwanwelisaya)
+    heroImage: pexels(122253, 1920), // White Dome Stupa Reflected on Water (Ruwanwelisaya)
     heroPosition: "center 35%",
     images: [
       pexels(11712470), // White Dome Building Under White Sky (another stupa view)
@@ -330,7 +330,7 @@ Le site est vivant : des moines en robe safran méditent au pied des stupas, des
     name: "Mirissa",
     tagline: "Le rendez-vous des géants bleus",
     category: ["plage", "nature"],
-    heroImage: pexels(1005417, 1600), // Person Standing Among Coconut Trees — Mirissa beach
+    heroImage: pexels(1005417, 1920), // Person Standing Among Coconut Trees — Mirissa beach
     heroPosition: "center 30%",
     images: [
       pexels(29644514), // Aerial View of Mirissa Beach in Sri Lanka
@@ -370,7 +370,7 @@ Le soir, les restaurants de plage servent du poisson grillé pêché le jour mê
     name: "Polonnaruwa",
     tagline: "Le musée à ciel ouvert",
     category: ["culture"],
-    heroImage: pexels(13764965, 1600), // Gal Vihara Rock Temple in Sri Lanka — Buddha carved in granite
+    heroImage: pexels(13764965, 1920), // Gal Vihara Rock Temple in Sri Lanka — Buddha carved in granite
     heroPosition: "center 40%",
     images: [
       pexels(122253),   // White stupa reflected on water (nearby Anuradhapura)

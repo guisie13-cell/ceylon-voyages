@@ -56,7 +56,7 @@ export default async function DestinationDetailPage({
   return (
     <>
       {/* Hero */}
-      <section className="relative h-[55vh] min-h-[400px] overflow-hidden">
+      <section className="relative h-[65vh] min-h-[480px] overflow-hidden">
         <Image
            src={dest.heroImage}
            alt={dest.name}
