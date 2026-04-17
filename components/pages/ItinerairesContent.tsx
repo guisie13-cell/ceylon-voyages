@@ -18,7 +18,7 @@ export function ItinerairesContent() {
   return (
     <>
       {/* Mini hero */}
-      <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
+      <section className="relative aspect-[4/5] sm:aspect-[16/9] max-h-[80vh] w-full overflow-hidden">
         <Image
           src="https://images.pexels.com/photos/4769075/pexels-photo-4769075.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
           alt="Nine Arches Bridge, Ella, Sri Lanka"

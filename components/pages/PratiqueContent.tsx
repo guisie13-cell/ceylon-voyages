@@ -30,7 +30,7 @@ export function PratiqueContent() {
   return (
     <>
       {/* Mini hero */}
-      <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
+      <section className="relative aspect-[4/5] sm:aspect-[16/9] max-h-[80vh] w-full overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1580977276076-ae4b8c219b8e?w=1920&q=80"
           alt="Temple de Kandy, Sri Lanka"
@@ -132,9 +132,9 @@ export function PratiqueContent() {
                     Région
                   </th>
                   {["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"].map(
-                    (m) => (
+                    (m, i) => (
                       <th
-                        key={m}
+                        key={i}
                         className="px-1.5 py-3 text-center font-medium text-ceylon-charcoal/50"
                       >
                         {m}

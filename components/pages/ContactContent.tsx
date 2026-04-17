@@ -66,7 +66,7 @@ export function ContactContent() {
   if (state === "success") {
     return (
       <>
-        <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
+        <section className="relative aspect-[4/5] sm:aspect-[16/9] max-h-[80vh] w-full overflow-hidden">
           <Image
             src="https://images.pexels.com/photos/28838276/pexels-photo-28838276.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
             alt="Sri Lanka"
@@ -105,7 +105,7 @@ export function ContactContent() {
   return (
     <>
       {/* Mini hero */}
-      <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
+      <section className="relative aspect-[4/5] sm:aspect-[16/9] max-h-[80vh] w-full overflow-hidden">
         <Image
           src="https://images.pexels.com/photos/28838276/pexels-photo-28838276.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
           alt="Sri Lanka"

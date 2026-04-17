@@ -18,7 +18,7 @@ export function DestinationsContent() {
 
   return (
     <>
-      <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
+      <section className="relative aspect-[4/5] sm:aspect-[16/9] max-h-[80vh] w-full overflow-hidden">
         <Image
           src="https://images.pexels.com/photos/6128955/pexels-photo-6128955.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
           alt="Plantations de thé du Sri Lanka"
